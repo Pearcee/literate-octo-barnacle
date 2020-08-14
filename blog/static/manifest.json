@@ -1,0 +1,29 @@
+{
+    "name": "Django'Site",
+    "short_name": "DjangoSite",
+    "start_url": "base.html",
+    "display": "standalone",
+    "background_color": "#fdfdfd",
+    "theme_color": "#db4938",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "images/icons/icon-72.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      },
+  
+      {
+        "src": "images/icons/icon-152.png",
+        "type": "image/png",
+        "sizes": "152x152",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "images/icons/icon-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
+  

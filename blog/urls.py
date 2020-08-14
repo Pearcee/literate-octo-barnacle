@@ -1,4 +1,5 @@
 from django.urls import path
+from django.views.generic import TemplateView
 from . import views
 
 urlpatterns = [
@@ -15,4 +16,8 @@ urlpatterns = [
     path('comment/<int:pk>/approve/',
          views.comment_approve, name='comment_approve'),
     path('comment/<int:pk>/remove/', views.comment_remove, name='comment_remove'),
+
+    path('sw.js', (TemplateView.as_view(template_name="sw.js", 
+          content_type='application/javascript', )), name='sw.js'),
+
 ]
